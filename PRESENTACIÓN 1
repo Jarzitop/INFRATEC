@@ -10,3 +10,56 @@ valores de las características relevantes y con estos calcula y reporta la velo
 de transferencia efectiva.
 
 Apuntes para la presentación 
+¿Qué es un bus serial? 
+
+Un bus es un sistema diigtal que transfiere datos entre los componentes de una computadora
+
+Existen dos tipos de transferencias a la hora de usar buses, paralela y en serie. 
+
+Un bus de serie usa una transferencia de datos de bit a bit y se reconstruyen por medio de regustros o rutinas
+
+En la actualidad son usados para conectar discos duros, unidades de estado sólido, tarjetas de expansión, etc. 
+
+DEFINICIONDE HALF DUPLESX Y FULL DUPLEX 
+En half duplex los datos circulan en una sola direccion. es tdecir la unica forma de alternar la direccion de el mensaje es a través de el canal de comunicaciones 
+
+Full Duplex 
+En el full duplex tenenmos mensajes cuyos datos circulan en ambas direcciones al mismo tiempo. El ancho de banda dse mide en una sola dirección.
+
+TRAMA DE BITS
+
+Una trama de bits es una secuencia o unidad de envío de datos conformada por una serie de bits ordenados, funcion con paridad 
+
+Su estructura principal es 
+
+  Cabecera
+  Cola
+  Parte Central 
+
+La tasa de transferencia es la cantidad de datos que pueden ser transferidos en un periodo de tiempo determinado. 
+La transferencia real siempre es menor a la teorica 
+
+La tasa de transferencia esfectiva es igual a la cantidad de información que se podría transferiri a través de la red telemática sin que haya una sobrecarga de la misma
+
+
+Formula de Velocidad de transferencia bruta
+Formula de velocidad de transferencia efectiva
+
+Información para la velocidad bruta 
+  División y Conversión de unidades 
+
+Informacion para la velocidad efectiva 
+  Tamaño de las tramas 
+  Bits de control 
+  Division simple 
+  Convwersión de unidades 
+
+V_Bruta = datos/tiempo = datos en Gbi/ tiempo en s
+
+Gbi/s * (2**30 bytes/ 1Gbi)*(8 bits/1byte)
+
+V_Efectiva = datos/tiempo = Gbi - datos de control / s 
+datos de control = tramas * bits de control / (2**30 / 1Gbi) 
+
+
+
