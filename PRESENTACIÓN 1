@@ -1,0 +1,12 @@
+b) Aspectos del Tema de Buses seriales
+▪ Definición de bus serie o serial.
+▪ Definición de half duplex y full duplex
+▪ Definición de las características: trama de bits (bits de control y datos), velocidad o
+tasa de transferencia y tasa de transferencia efectiva
+▪ Fórmula para calcular la velocidad de transferencia efectiva como función de las
+otras características
+▪ Escriba un programa en C que implemente el cálculo anterior: el programa pide los
+valores de las características relevantes y con estos calcula y reporta la velocidad
+de transferencia efectiva.
+
+Apuntes para la presentación 
